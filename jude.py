@@ -228,7 +228,7 @@ def Manual():
 # ────────────────[Automatic file]─────────────────
 
 def Auto():
-    directory = '/sdcard'
+    directory = '/storage'
     txt_files = [f for f in os.listdir(directory) if f.endswith('.txt')]
     
     if not txt_files:
